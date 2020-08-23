@@ -3,15 +3,15 @@
 - VS Code
 
 ## How to install
-- Dockerfileからイメージをビルド
-`docker-compose build`
+- Dockerfileからイメージをビルド  
+`docker-compose build`  
 
-- Dockerコンテナを作成
-`docker-compose up -d`
+- Dockerコンテナを作成  
+`docker-compose up -d`  
 
-- init.shを実行
-`docker-compose exec atcoder bash`
-`/bin/bash /root/init.sh`
+- init.shを実行  
+`docker-compose exec atcoder bash`  
+`/bin/bash /root/init.sh`  
 
 ## How to use
 - new.sh ディレクトリの作成
@@ -19,4 +19,5 @@
 - test.sh online-judge toolsでテスト
 - submit.sh atcoder-cliからテスト
 
+## Other
 - tasks.jsonをvscodeでキーバインドしておくと上記スクリプトがショートカットから実行出来て便利です。
