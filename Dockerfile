@@ -5,4 +5,4 @@ RUN npm install -g npm \
 && pip3 install online-judge-tools
 
 ADD config/ /root/.config/atcoder-cli-nodejs/
-COPY init.sh /root/init.sh
+COPY scripts/init.sh /root/init.sh
