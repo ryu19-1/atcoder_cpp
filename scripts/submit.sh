@@ -1,3 +1,3 @@
 test=${1}
-echo ${test}
-docker exec -it atcoder /bin/bash -c "cd ${test:25} && acc s"
+# echo ${test}
+docker exec -it atcoder /bin/bash -c "cd ${test:${#PWD}} && acc s"

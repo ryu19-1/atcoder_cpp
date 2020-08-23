@@ -1,13 +1,13 @@
 ## How to install
 - Dockerfileからイメージをビルド
-docker-compose build
+`docker-compose build`
 
 - Dockerコンテナを作成
-docker-compose up -d
+`docker-compose up -d`
 
 - init.shを実行
-docker-compose exec bash
-/bin/bash init.sh
+`docker-compose exec atcoder bash`
+`/bin/bash /root/init.sh`
 
 ## How to use
 - new.sh ディレクトリの作成
