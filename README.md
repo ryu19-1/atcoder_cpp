@@ -1,3 +1,7 @@
+## Requirements
+- Docker
+- VS Code
+
 ## How to install
 - Dockerfileからイメージをビルド
 `docker-compose build`
@@ -14,3 +18,5 @@
 - compile.sh main.cppのコンパイル
 - test.sh online-judge toolsでテスト
 - submit.sh atcoder-cliからテスト
+
+- tasks.jsonをvscodeでキーバインドしておくと上記スクリプトがショートカットから実行出来て便利です。
