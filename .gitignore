@@ -1,2 +1,2 @@
-/contests/*
-contest.acc.json
+/contests/
+*.json
