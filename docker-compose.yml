@@ -6,4 +6,5 @@ services:
         tty: true
         volumes: 
             - ./contests:/contests
+            - ./config:/root/.config/atcoder-cli-nodejs/
         
