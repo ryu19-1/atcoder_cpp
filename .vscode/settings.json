@@ -1,0 +1,3 @@
+{
+    "editor.formatOnSave": true,  // 保存のたびにコードを整形する
+}

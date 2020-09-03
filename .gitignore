@@ -1,3 +1,4 @@
 /contests/
-session.json
-settings.json
+.*
+!.devcontainer
+!.vscode

@@ -26,4 +26,6 @@
 ## Other
 - tasks.jsonをvscodeでキーバインドしておくと上記スクリプトがショートカットから実行出来て便利です。
 
-## Thanks
+## Shortcuts(個別に設定が必要)
+- コンパイル：Ctrl + Shift + B
+- テスト：Ctrl + T

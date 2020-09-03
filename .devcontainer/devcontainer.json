@@ -1,0 +1,15 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+
+	"service": "atcoder",
+	"workspaceFolder": "/root",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"ms-vscode.cpptools",
+	]
+}
