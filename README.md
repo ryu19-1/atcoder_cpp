@@ -5,27 +5,16 @@
 ## Requirements
 - Docker
 - VS Code
+    - extensions: Remote Contaiers
 
 ## How to install
-- Dockerfileからイメージをビルド  
-`docker-compose build`  
+1. Remote Containersを実行  
+`Remote-Containers: Reopen in Container`   
 
-- Dockerコンテナを作成  
-`docker-compose up -d`  
-
-- init.shを実行  
-`docker-compose exec atcoder bash`  
+2. init.shを実行
 `/bin/bash /root/init.sh`  
 
 ## How to use
-- new.sh ディレクトリの作成
-- compile.sh main.cppのコンパイル
-- test.sh online-judge toolsでテスト
-- submit.sh atcoder-cliからテスト
-
-## Other
-- tasks.jsonをvscodeでキーバインドしておくと上記スクリプトがショートカットから実行出来て便利です。
-
-## Shortcuts(個別に設定が必要)
 - コンパイル：Ctrl + Shift + B
 - テスト：Ctrl + T
+テストのショートカットはkeybindings.jsonで設定が必要

@@ -1,26 +1,6 @@
 {
     "version": "2.0.0",
     "tasks": [
-        {
-            "label": "competitiveNew",
-            "type": "shell",
-            "command": "/bin/bash scripts/new.sh",
-            "presentation": {
-                "reveal": "always",
-                "focus": true,
-                "panel": "shared"
-            }
-        },
-        // {
-        //     "label": "competitiveCompile",
-        //     "type": "shell",
-        //     "command": "/bin/bash scripts/compile.sh ${fileDirname}",
-        //     "presentation": {
-        //         "reveal": "always",
-        //         "focus": true,
-        //         "panel": "shared"
-        //     }
-        // },
         { // テスト実行(online-judge)
             "label": "competitiveTestSample",
             "type": "shell",
@@ -31,16 +11,6 @@
                 "panel": "shared"
             }
         },
-        // {
-        //     "label": "competitiveSubmit",
-        //     "type": "shell",
-        //     "command": "/bin/bash scripts/submit.sh ${fileDirname}",
-        //     "presentation": {
-        //         "reveal": "always",
-        //         "focus": true,
-        //         "panel": "shared"
-        //     }
-        // },
         { // コンパイル (C++17)
             "type": "shell",
             "label": "build kyopro C++17",
@@ -51,7 +21,6 @@
                 "-std=gnu++17",
                 "-march=native",
                 "-mtune=native",
-                // "main.cpp",
                 "${relativeFile}"
             ],
             "group": {
