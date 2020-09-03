@@ -21,7 +21,9 @@
                 "-std=gnu++17",
                 "-march=native",
                 "-mtune=native",
-                "${relativeFile}"
+                "${file}",
+                "-o",
+                "${fileDirname}/a.out",
             ],
             "group": {
                 "kind": "build",
