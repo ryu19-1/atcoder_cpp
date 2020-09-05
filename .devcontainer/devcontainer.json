@@ -3,7 +3,6 @@
 	"dockerComposeFile": [
 		"docker-compose.yml"
 	],
-
 	"service": "atcoder",
 	"workspaceFolder": "/root",
 	"settings": {

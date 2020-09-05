@@ -1,5 +1,7 @@
 {
+    "C_Cpp.clang_format_style": "{BreakBeforeBraces: Attach, IndentWidth: 4}",
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "files.associations": {
         "iostream": "cpp"
     }, // 保存のたびにコードを整形する

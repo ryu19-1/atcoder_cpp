@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${fileDirname}/a.out",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
