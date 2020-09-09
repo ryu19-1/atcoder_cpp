@@ -12,16 +12,11 @@
     // 	],
     // 	"description": "Log output to console"
     // }
-    "Kyopro": {
-        "prefix": "kyopro",
-        "body": [
-            "#include <bits/stdc++.h>",
-            "using namespace std;",
-            "",
-            "int main() {",
-            "",
-            "    return 0;",
-            "}",
-        ]
+    // 
+    // 
+    // Union Find
+    "UnionFind": {
+        "prefix": "uf",
+        "body": ""
     }
 }

@@ -24,6 +24,8 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/a.out",
+                "-I",
+                "",
             ],
             "group": {
                 "kind": "build",
