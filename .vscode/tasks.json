@@ -25,7 +25,7 @@
                 "-o",
                 "${fileDirname}/a.out",
                 "-I",
-                "",
+                "/root/lib",
             ],
             "group": {
                 "kind": "build",
